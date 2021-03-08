@@ -1,5 +1,8 @@
 import React from "react";
 
-export default () => (
+const Test = () => (
   <h1>Hello World!</h1>
-)
+);
+export {
+  Test
+};
