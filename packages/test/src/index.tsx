@@ -1,7 +1,12 @@
 import React from "react";
 
-const Test = () => (
-  <h1>Hello World!</h1>
+export interface ITestProps
+{
+  name: string;
+}
+
+const Test = (props: ITestProps) => (
+  <h1>Hello { props.name }!</h1>
 );
 export {
   Test
